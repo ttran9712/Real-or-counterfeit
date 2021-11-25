@@ -17,4 +17,24 @@ Where class indicates whether or not a Bank Note was authentic.
 We will feed these features into a Neural Network to see if we can predict if a bank note is real or a counterfeit.
 
 # Exploratory Data Analysis
-![ttran9712/Real-or-counterfeit/images](countplot_classes.png)
+Countplot of the Classes (Authentic 1 vs Fake 0)
+
+![ttran9712/Real-or-counterfeit/main/blob](images/countplot_classes.png)
+
+PairPlot of the Data
+
+![ttran9712/Real-or-counterfeit/main/blob](images/pairplot.png)
+
+# Scaled data
+
+![ttran9712/Real-or-counterfeit/main/blob](images/scaled_data.png)
+
+# Model evaluation
+Classification report
+
+![ttran9712/Real-or-counterfeit/main/blob](images/classification_report_DNN.png)
+
+# Model comparison: Random Forest Classifier
+Classification report
+
+![ttran9712/Real-or-counterfeit/main/blob](images/classification_report_RF.png)
